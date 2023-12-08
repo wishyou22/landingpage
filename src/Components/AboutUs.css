@@ -1,0 +1,248 @@
+.Vision-content{
+    display: flex;
+
+}
+.Vision-content div{
+  
+}
+.Vision-tittle{
+   
+    font-size: 3vw;
+    color: #070538;
+    padding: 2vw;
+    text-align: center;
+}
+
+.hand img{
+    width:400px;
+    margin: 2vw;
+    border-radius: 20px;
+    
+
+}
+.vision-content-div{
+    padding: 4vw;
+   
+
+}
+.hand{
+    width:50% ;
+
+}
+
+.Vision-div{
+    background-color: rgb(239, 227, 239);
+    line-height: 25px;
+    display: flex;
+    border-radius: 15px;
+    margin: 3vw;
+   
+
+}
+.words{
+    background-color:rgba(206, 201, 201, 0.223);
+    padding: 2vw;
+    text-align: center;
+    margin: 3vw;
+    border-radius: 15px;
+}
+.ceo-statement-main-div{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.ceo-statement{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5vw;
+   
+}
+.ceo-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    line-height: 25px;
+
+}
+.ceo-img{
+  display: flex;
+  width: 550px;
+
+}
+.ceo-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.Mission-div{
+    /* border: 2px solid pink; */
+    display: flex;
+    justify-content: center;
+    margin: 5vw;
+    background-color: rgb(247, 239, 241);
+    border-radius: 15px; 
+    padding: 2vw;
+}
+
+.Mission-content-tag,.Mission-tag{
+     width: 50vw;
+     text-align: center;
+    
+
+}
+.Mission-content-tag{
+    line-height: 25px;
+}
+.Mission-tag{
+    font-size: 3vw;
+    color: #070538;
+    padding: 1vw;
+    text-align: center;
+   
+   
+}
+@media (min-width:900px) and (max-width:1200px){
+    
+    .ceo-img img{
+    
+        border:5px solid pink;
+        width:90%;
+        height:70%;
+    }
+    
+
+}
+
+@media (min-width:600px) and (max-width:900px){
+
+    .Vision-div{
+        
+        flex-wrap: wrap;
+         width: 60vw;
+        margin-left: 20vw;
+
+    }
+    .vision-content-div{
+        width: 70vw;
+      
+    }
+    .Vision-content{
+        line-height:30px;
+        padding: 3vw;
+        padding-left: 6vw;
+    }
+    .hand img{
+        width: 180%;
+        margin: 2vw;
+        border-radius: 20px;
+        margin-left:3vw
+
+        
+    
+    }
+    .ceo-statement{
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 60vw; */
+
+        
+    }
+    .ceo-content{
+       
+       /* border: 2px solid; */
+       width: 90vw;
+       margin: 5vw;
+    }
+    .ceo-img img{
+       
+        /* border:2px solid black */
+    }
+    .Mission-tag{
+        font-size: 6vw;
+        text-align: center;
+        width: 69vw ;
+        
+    }
+    .Mission-content-tag{
+        width: 70vw;
+        line-height: 25px;
+    }
+  
+}
+@media(max-width:600px){
+    .Vision-div{
+       flex-wrap: wrap;
+        width: 90vw;
+        margin-left: 3.5vw;
+    }
+    .vision-content-div{
+
+
+    }
+    .Vision-tittle{
+        font-size:7vw
+    }
+    .Vision-content{
+        line-height:30px;
+        width: 70vw;
+
+    }
+    .hand img{
+        width: 180%;
+        margin: 2vw;
+        border-radius: 20px;
+        margin-left:3vw
+
+        
+    
+    }
+    .ceo-statement{
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 60vw; */
+
+        
+    }
+    .ceo-content{
+        width: 80vw;
+        padding: 2vw;
+    }
+    .ceo-img {
+        margin: 5vw;
+        width:80vw;
+    }
+    
+    .Mission-tag{
+        font-size: 6vw;
+        text-align: center;
+       
+        width: 69vw ;
+        
+    }
+    .Mission-content-tag{
+     
+        width: 70vw;
+        line-height: 25px;
+    }
+    .Mission-div{
+       
+    }
+    .Vision-div{
+        background-color: rgb(239, 227, 239);
+        line-height: 25px;
+        border-radius: 15px;
+        margin: 7vw;
+    
+    }
+    .Mission-div{
+        display: flex;
+        justify-content: center;
+        margin-left: 10vw;
+        background-color: rgb(247, 239, 241);
+        border-radius: 15px; 
+
+    }
+    
+}

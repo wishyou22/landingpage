@@ -1,0 +1,649 @@
+.Main-video{
+   display:flex;
+   background-color: #070538;
+ 
+}
+.Main-video div{
+    display:flex;
+    justify-content: center;
+    /* border: 2px solid green; */
+    background-image:url(./Assets/symbol4.png);
+ }
+.Main-video img{
+    width: 90%;
+
+}
+.main-tag-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    padding-bottom: 3vw;
+    padding-top: 3vw;
+}
+.main-tag-div h1{
+    background-color:#070538;
+    padding: 1vw;
+    border-radius: 20px;
+}
+.Question-div{
+   
+    display: flex;
+}
+.Question-div span{
+   font-size:x-large;
+   font-weight: 550;
+
+}
+.Question-div div{
+    width: 100%;
+}
+.Question-div img{
+   
+    width: 70%;
+    margin-left: 5vw;
+
+}
+.question-sub-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ 
+}
+.question-sub-tag-div{
+   color: #070538;
+   font-size: 2.4vw;
+   font-weight: 900;
+
+}
+.question-sub-tag-div span{
+    color: red;
+    font-size: 2.4vw;
+    font-weight: 900;
+}
+.Product-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vw;
+    font-size:3vw;
+  
+   
+}
+.sub-product-div{
+    display: flex;
+  
+}
+.products-tag{
+text-align: center;
+font-size: 1.8vw;
+margin-bottom: 5vw;
+line-height: 30px;
+
+
+
+}
+.sub-product-div div{
+    width: 50%;
+    text-align: center;
+    padding: 1vw;
+   
+
+}
+
+.Product-div-learning{
+    border-radius: 5px;
+    font-size: 2.5vw; 
+    border-bottom: 10px solid red;
+    border-radius: 5px; 
+}
+.border{
+   
+    font-size: 2.5vw; 
+    border-radius: 5px; 
+}
+.border:hover{
+   background-color: #070538;
+   color: aliceblue;
+   cursor: pointer;
+    font-size: 2.5vw; 
+   
+    border-radius: 5px; 
+}
+
+.non-display{
+    display: none;
+    
+}
+.non-display-app{
+    display: none;
+}
+.Product-div-Teaching{
+    
+    font-size: 2.5vw;
+    
+}
+.border2{
+    font-size: 2.5vw;
+    border-bottom:10px solid  red;
+   
+   
+
+    
+}
+.border2:hover{
+    font-size: 2.5vw;
+    cursor: pointer;
+    background-color: #070538;
+    color: aliceblue;
+   
+}
+
+
+
+.Product-div-Teaching:hover{
+   
+    font-size: 2.5vw;
+    background-color: #070538;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.Product-div-learning:hover{
+    font-size: 2.5vw; 
+    font-size: 2.5vw;
+    background-color: #070538;
+    color: aliceblue; 
+    cursor: pointer;
+}
+
+.app-content{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+    
+.app-content-theory{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+    padding: 2vw;
+    gap : 2vw;
+  
+}
+
+.app-content-image{
+    width: 50%;
+  
+}
+
+.app-content-image img{
+    width: 100%;
+}
+.panel-content{
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+}
+.panel-content-theory{
+    display: flex;
+  
+    width: 50%;
+    flex-direction: column;
+}
+.panel-content-sub-theory{
+    display: flex;
+    justify-content: space-evenly;
+   
+    gap: 2vw;
+
+}
+.panel-content-sub-theory1{
+     display: flex;
+     flex-direction: column;
+     padding: 1vw;
+    
+
+    
+}
+
+
+.panel-content-image{
+    width: 50%;
+    padding-left: 15vw;
+    
+}
+.bold-text b{
+    padding-bottom: 3vw;
+   
+}
+.panel-content-1 {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border : 1px solid rgb(200, 199, 199);
+    border-radius: 15px;
+    box-shadow:5px 5px 5px rgb(195, 183, 183);
+    margin: 2vw;
+    height: 7vw;
+    padding: 1vw;
+    gap: .5vw;
+    transition: 2s;
+
+
+
+}
+
+.panel-content-1:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    margin-left: 2vw;
+}
+
+
+.panel-content-1 b{
+    font-size: 1.5vw;
+}
+
+
+.panel-content-image img{
+    width: 90%;
+}
+
+
+.main-Testomonial{
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+
+
+}
+
+.Testomonial{
+   display: flex;
+   gap: 3vw;
+   justify-content:space-evenly;
+   margin-bottom: 5vw;
+   flex-wrap: wrap;
+
+}
+.Testomonial-1,.Testomonial-2,.Testomonial-3{
+
+width: 300px;
+padding: 2vw;
+line-height: 25px;
+background-color: #0705380d;
+transition: 1s ease-in-out;
+}
+.Testomonial-1:hover,.Testomonial-3:hover{
+    transform: scale(1.3);
+    z-index: 2;
+
+  
+}
+.Testomonial-2:hover{
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+
+.sub-symbol-div{
+    display: flex;
+    gap: 5px;
+}
+.sub-symbol-content-div{
+    padding-top: 15px;
+}
+/* ---------------------------------------------pre-zero media queery--------------------------------------------------------------- */
+
+@media (max-width: 300px){
+
+.main-tag-div h1{
+    /* background-color: aliceblue; */
+    font-size: 3.5vw;
+    border-radius: 5px;
+    padding: 2vw;
+}
+.Question-div-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+.Question-div img{
+
+    margin-left: .1vw;
+}
+.Question-div{
+
+    flex-wrap: wrap;  
+}
+.question-sub-tag-div{
+
+    font-size: 5vw;
+    
+}
+.question-sub-tag-div span{
+
+    font-size: 5vw;
+   
+}
+.points span{
+    font-size: 3vw;
+}
+.points {
+
+    font-size: 3vw;
+}
+.question-sub-div{
+    gap: 2vw;
+    margin-left: 10vw;
+    /* border:2px solid green; */
+}
+.app-content,.panel-content{
+    display: flex;
+    flex-direction: column;
+ 
+
+}
+.panel-content-1{
+    width: 90vw;
+    height: 20vw;
+    font-size: 3vw;
+    padding: 2vw;
+    border-radius: 10px;
+}
+.bold-text b{
+    font-size: 3.5vw;
+}
+.app-content-image img{
+    width: 80vw;
+    margin: 5vw;
+    margin-left: 10vw;
+}
+.panel-content{
+    width: 100vw;
+    /* margin-left: 40vw; */
+}
+.panel-content-image{
+    padding-left: 8vw;
+}
+.panel-content-sub-theory1{
+ 
+    margin-left: 45vw;
+}
+.panel-content-image img{
+  width: 80vw;
+  margin-left: 2vw;
+}
+.Testomonial-1,.Testomonial-2,.Testomonial-3{
+    width: 250px;
+    margin: 8vw;
+    transition: 1s ease-in-out;
+}
+
+.Testomonial-1:hover,.Testomonial-2:hover,.Testomonial-3:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* ---------------------------------------------zero media queery--------------------------------------------------------------- */
+
+@media (max-width: 600px) and (min-width: 300px){
+
+   .main-tag-div h1{
+    font-size: 3.5vw;
+    text-align: center;
+    padding: 2vw;
+
+
+}
+.question-sub-div{
+    gap: 2vw;
+    font-size: 3vw;
+}
+.Product-div div{
+    font-size: 7vw;
+}
+.products-tag h4{
+    font-size: 3.5vw;
+    line-height: 20px;
+
+}
+.panel-content-1{
+    font-size: 3vw
+
+}
+.Testomonial{
+   
+    padding-top: 10vw;
+    gap: 12vw;
+    margin-bottom: 14vw;
+}
+.Testomonial-1{
+
+margin-top: 3vw;
+
+
+}
+
+
+
+}
+/* ---------------------------------------------First media queery--------------------------------------------------------------- */
+
+
+@media (max-width: 900px) and (min-width: 600px){
+
+    .main-tag-div{
+        font-size: 1.5vw;
+        margin-top: 2vw;
+
+    }
+   
+    .Question-div-img{
+        
+        text-align: center;
+    }
+    .Question-div-img img{
+      
+        width: 95%;
+        margin-left: .2vw;
+        margin-top: 13vw;
+    }
+    .question-sub-tag-div{
+        font-size: 4vw;
+        gap: 10px;
+    }
+    .question-sub-tag-div span{
+        font-size: 4vw;
+    }
+    .points span{
+        font-size: 2.5vw;
+    }
+    .Product-div{
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+    .products-tag{
+        font-size: 2.5vw;
+    }
+    
+    .panel-content-1 {
+        
+        height: 20vw;
+
+    }
+    
+  
+    
+    .panel-content-1 b{
+        font-size: 3vw;
+    }
+    .app-content-image img{
+        margin-top: 20vw;
+       
+    
+   }
+   .panel-content-image{
+    padding: .1vw;
+    margin-top: 20vw;
+   }
+   .panel-content-image img{
+    width: 50vw;
+    /* padding: 10px; */
+   }
+   
+    .main-Testomonial{
+        font-size: 5vw;
+    }
+    .Testomonial{
+        
+        display: flex;
+        flex-wrap: wrap;
+        background-color: aliceblue;
+    }
+
+}
+
+
+/* -------------------------second querry------------------------------------------------------ */
+
+
+
+@media (max-width: 1200px) and (min-width: 900px){
+    .panel-content-1{
+        width: 50vw;
+        height: 13vw;
+        
+    }
+    .app-content-image img{
+        width: 40vw;
+        margin-left: 8vw;
+        margin-top: 5vw;
+    }
+    .panel-content-image img{
+        width: 40vw;
+       
+        margin-top: 3vw;
+    }
+    .panel-content-image{
+        padding-left: 2vw;
+    }
+
+}
+@media (max-width: 600px) and (min-width: 300px){
+         
+
+   .main-tag-div{
+        font-size: 1.5vw;
+        margin-top: 2vw;
+
+    }
+  
+    .Question-div-img{
+        text-align: center;
+    }
+    .Question-div-img img{
+        width: 95%;
+        margin-left: .2vw;
+        margin-top: 13vw;
+    }
+    .question-sub-tag-div{
+        font-size: 4vw;
+    }
+    .question-sub-tag-div span{
+        font-size: 4vw;
+    }
+    .points span{
+        font-size: 2.5vw;
+      
+    }
+    .Product-div{
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+    .products-tag{
+        font-size: 2.5vw;
+    }
+    .app-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .panel-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .app-content-theory{
+       
+        width: 90vw;
+        
+    }
+    .panel-content-1 {
+  
+        height:20vw ;
+        margin: 2vw;
+        width: 80vw;
+        padding: 2vw;
+    }
+    
+  
+    
+    .panel-content-1 b{
+        font-size: 3vw;
+    }
+    .main-Testomonial{
+        font-size: 5vw;
+    }
+    .Testomonial{
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+    .app-content-image{
+        margin-left: 5vw;
+       
+    }
+    .app-content-image img{
+        width: 90vw;
+    }
+    .panel-content-theory{
+        display: flex;
+      
+        width: 90%;
+        flex-direction: column;
+    }
+    .panel-content-image img{
+        width: 80vw;
+    }
+    .panel-content-image{
+        padding: 8vw;
+    }
+
+       
+}
+
+
+

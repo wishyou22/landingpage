@@ -1,0 +1,118 @@
+.navbar {
+    transition: all 1s ease-in-out;
+    background-color: whitesmoke;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    z-index: 100;
+    
+    
+  }
+
+
+
+
+
+.navbar-main-div{
+    display: flex;
+    height: 5vw;
+    padding: .7vw;
+    padding-bottom: 1vw;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    margin-bottom: 1vw;
+    box-shadow: 0px 0px 10px  #070538;  
+    background-color: rgb(255, 255, 255);  
+    
+}
+
+.navbar-logo-div img{
+    height: 4vw;
+    width: 7.5vw;
+}
+.navbar-logo-div {
+    padding-left: 1vw;
+   
+}
+.Navbar-Option{
+    display: flex;
+    align-items: center;
+    gap: 6vw;
+    margin-right: 5vw;
+
+}
+.Navbar-Option a{
+    text-decoration: none;
+    color: #070538;
+    font-weight: 700;
+}
+.Navbar-Option :hover{
+    text-decoration: none;
+    color: rgb(224, 19, 0);
+    font-weight: 700;
+}
+
+ @media (max-width:600px){
+
+
+    .navbar-main-div{
+        display: flex;
+        height: 8vw;
+        padding: .5wvw;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    
+    .navbar-logo-div img{
+        height: 8vw;
+        width: 14vw;
+    }
+    .navbar-logo-div {
+        padding-left: 1vw;
+        /* border:2px solid rgb(159, 36, 56); */
+        width:10vw
+       
+    }
+    .Navbar-Option{
+        display: flex;
+        align-items: center;
+        /* border: 2px solid rgb(221, 192, 255); */
+      
+    }
+   
+    
+}
+@media (max-width:900px){
+
+
+    .navbar-main-div{
+        display: flex;
+        height: 8vw;
+        padding: .5wvw;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    
+    .navbar-logo-div img{
+        height: 8vw;
+        width: 14vw;
+    }
+    .navbar-logo-div {
+        padding-left: 1vw;
+        /* border:2px solid rgb(159, 36, 56); */
+        width:10vw
+       
+    }
+    .Navbar-Option{
+        display: flex;
+        align-items: center;
+        /* border: 2px solid rgb(221, 192, 255); */
+      
+    }
+   
+    
+}

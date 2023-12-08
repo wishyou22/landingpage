@@ -1,0 +1,209 @@
+.support-text{
+    text-align: center;
+    background-color:#070538;
+    padding: 1vw;
+    color: whitesmoke;
+    border-radius: 15px;
+    margin-bottom: 2vw;
+}
+.support-text{
+    margin-top: 2vw;
+}
+
+.contact-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    margin-bottom: 5vw;
+    background-color:#07053830
+}
+
+.contact-img{
+    width: 30%;
+    
+   
+}
+
+.contact-img img{
+    width:100%;
+    border-radius: 20px;
+    
+}
+.contact-form{
+    padding-left: 3vw ;
+    padding-right:3vw    ;
+}
+.name-div input ,.email-div input{
+    width: 20vw;
+    height: 3vw;
+    padding: 1vw;
+    margin: 0.5vw;
+    border: none;
+    border-bottom: 3px solid silver;
+    border-radius: 15px;
+}
+.Meassage-div textarea{
+    width: 20vw;
+    height: 8vw;
+    padding: 1vw;
+    border: none;
+    border-bottom: 3px solid silver;
+    border-radius: 15px;
+    margin: 0.5vw;
+}
+.main-radio-div{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    margin-top: 1vw;
+}
+.radio-div{
+    display:flex;
+    gap: .5vw;
+}
+.main-submit-btn{
+    display: flex;
+    justify-content: center;
+}
+.submit-btn input{
+
+    background-color:#07053872;
+    color: aliceblue;
+    border: none;
+    padding: 1vw;
+    border-radius: 15px;
+    width: 7vw;
+}
+.submit-btn input:hover{
+    background-color: #070538;
+    color: aliceblue;
+}
+.ending-support-div{
+    text-align: center;
+    background-color:#070538;
+    padding: 1vw;
+    color: whitesmoke;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    border-radius: 15px;
+
+}
+@media(max-width:300px){
+    .support-text{
+        text-align: center;
+        background-color:#71140D;
+        padding: 1vw;
+        color: whitesmoke;
+        border-radius: 15px;
+        margin-bottom: 2vw;
+        font-size: 3vw;
+    }
+    .support-text{
+        margin-top: 2vw;
+    }
+    
+    
+    .contact-div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        margin-bottom: 5vw;
+        /* background-color:#f4d4c56d */
+    }
+    .contact-img{
+        width: 80%;
+        margin-left: 11vw;
+        
+       
+    }
+    .contact-img img{
+        width:100%;
+        border-radius: 20px;
+        
+    }
+    .contact-form{
+       
+        margin-top: 5vw;
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+       
+
+    }
+    .contact-form{
+        margin-left: 11vw;
+    }
+    .name-div input,.email-div input{
+        width:70vw;
+        height: 8vw;
+        padding: 4vw;
+    }
+    .Meassage-div textarea{
+        width:70vw;
+        height:40vw;
+    }
+    .submit-btn input{
+        width:20vw;
+        padding: 4vw;
+    }
+    .ending-support-div{
+        font-size: 2vw;
+        padding: 5vw;
+    }
+
+    
+
+
+}
+ @media (max-width: 600px) and (min-width: 300px) {
+
+
+    .support-text{
+        text-align: center;
+        background-color:#71140D;
+        padding: 1vw;
+        color: whitesmoke;
+        border-radius: 15px;
+        margin-bottom: 2vw;
+        font-size: 2vw;
+    }
+    .support-text{
+        margin-top: 2vw;
+    }
+    
+    .contact-div{
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        margin-bottom: 5vw;
+        /* background-color:#f4d4c56d; */
+        width: 100vw;
+       
+    }
+    .contact-img img{
+        width:40vw
+    }
+    .contact-form{
+        margin-left: 13vw;
+    }
+    .name-div input,.email-div input{
+        width:50vw;
+        height: 6vw;
+        padding: 2vw;
+    }
+    .Meassage-div textarea{
+        width:50vw;
+        height: 20vw;
+    }
+    .submit-btn input{
+        width:20vw
+    }
+    .ending-support-div{
+        font-size: 2vw;
+    }
+
+}
