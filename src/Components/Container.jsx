@@ -1,20 +1,12 @@
-import React, { useState, useRef,useEffect } from 'react'
-import Navbar from './Navbar'
+import React, { useState,  useEffect } from 'react'
 import "./Container.css"
-import Footer from './Footer'
-import emailjs from '@emailjs/browser';
 import mainpanel from "./Assets/panel-1.jpg"
-import { MdVideoLibrary } from "react-icons/md";
-import { MdOutlinePhoneIphone } from "react-icons/md";
-import { FaSchoolFlag } from "react-icons/fa6";
-import { BiSolidLike } from "react-icons/bi";
+
 import { IoIosArrowForward } from "react-icons/io";
 import childexp from "./Assets/image-01.jpg"
 import dadchild from "./Assets/image-02.jpg"
 import panel1 from "./Assets/panel size.png"
-import { AiFillSound } from "react-icons/ai";
-import { MdTouchApp } from "react-icons/md";
-import appImage2 from "./Assets/image-03.jpg"
+// import appImage2 from "./Assets/image-03.jpg"
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -22,7 +14,7 @@ const Container = () => {
 
     useEffect(() => {
         Aos.init({ duration: 2000 });
-      }, []);
+    }, []);
     const [view, setView] = useState("non-display")
     const [view2, setView2] = useState("app-content")
     const [heading, setHeading] = useState("Product-div-learning")
@@ -50,17 +42,17 @@ const Container = () => {
 
             <div>
                 <div className='Main-video'>
-                    <div><img src={mainpanel} alt="" /></div>
-                    
-                    </div>
+                    <div><img src={mainpanel} alt='a pic' /></div>
+
+                </div>
                 <div className='main-tag-div'>
                     <h1>Transform learning into an exciting adventure with our Learning App, sparking your child's curiosity </h1>
                 </div>
                 <div className='Question-div'>
-                    <div className='Question-div-img'><img src={childexp} /></div>
-                    <div className='question-sub-div'>
-                        <div><div className='question-sub-tag-div'>Why IDUR <span>Academy Learning</span> App</div></div>
-                        <div className='points'><IoIosArrowForward /> <span>Innovative Learning Approach</span></div>
+                    <div className='Question-div-img' data-aos="fade-right"><img src={childexp}  alt='a pic'/></div>
+                    <div className='question-sub-div' data-aos="fade-left" >
+                        <div><div className='question-sub-tag-div'>Why IDUR <span>Academy Learning</span> App ?</div></div>
+                        <div className='points'><IoIosArrowForward /><span>Innovative Learning Approach</span></div>
                         <div className='points'><IoIosArrowForward /><span>Personalized Education</span></div>
                         <div className='points'><IoIosArrowForward /><span>Comprehensive Curriculum Coverage</span></div>
                         <div className='points'><IoIosArrowForward /><span>Trackable Progress</span></div>
@@ -100,7 +92,9 @@ const Container = () => {
                             <div className='panel-content-1' >
 
                                 <div className='bold-text'><div><b>Engagement Beyond Classrooms</b></div></div>
-                                <div className='panel-content-sub-1'>The app bridges the gap between school and home, offering interactive and engaging content that keeps students motivated and involved in learning, even outside the classroom.
+                                <div className='panel-content-sub-1'>The app bridges the gap between school and home, 
+                                offering interactive and engaging content that keeps students motivated and involved in 
+                                learning, even outside the classroom.
                                 </div>
                             </div>
 
@@ -109,35 +103,35 @@ const Container = () => {
 
                     </div>
                     <div className='app-content-image'  >
-                    <img src={dadchild} data-aos="fade-left"/>
-        
-                        </div>
+                        <img src={dadchild} data-aos="fade-left" alt='a pic' />
+
+                    </div>
                 </div>
                 <div className={view}>
-                    <div className='panel-content-theory'>
+                    <div className='panel-content-theory' data-aos="fade-right">
                         <div className='panel-content-sub-theory'>
                             <div className='panel-content-sub-theory1'>
 
                                 <div className='panel-content-1'>
 
-                                    <div className='bold-text'><div><b>Empowering Parents</b></div></div>
-                                    <div className='panel-content-sub-1'>Our Learning App offers parents insightful analytics and tools to
-                                        actively participate in and enhance a child's educational journey,
-                                        fostering a collaborative learning environment at home.</div>
+                                    <div className='bold-text'><div><b>Dynamic Classroom Interaction:</b></div></div>
+                                    <div className='panel-content-sub-1'>Our Interactive Flat Panel fosters a highly engaging and
+                                        participative learning environment, making lessons more interactive and enjoyable for teachers
+                                        and students.
+                                    </div>
                                 </div>
                                 <div className='panel-content-1'>
 
-                                    <div className='bold-text'><div><b>Enhanced Learning Support</b></div></div>
-                                    <div className='panel-content-sub-1'> Our Learning App offers parents insightful analytics and tools to
-                                        actively participate in and enhance a child's educational journey,
-                                        fostering a collaborative learning environment at home.</div>
+                                    <div className='bold-text'><div><b>Enhanced Visual Learning:</b></div></div>
+                                    <div className='panel-content-sub-1'>With high-definition displays,
+                                        complex subjects become visually captivating and easier to grasp,
+                                        aiding in better comprehension and retention.</div>
                                 </div>
                                 <div className='panel-content-1'>
 
-                                    <div className='bold-text'><div><b>Engagement Beyond Classrooms</b></div></div>
-                                    <div className='panel-content-sub-1'>Our Learning App offers parents insightful analytics and tools to
-                                        actively participate in and enhance a child's educational journey,
-                                        fostering a collaborative learning environment at home.</div>
+                                    <div className='bold-text'><div><b>Harmonious Technology Integration: </b></div></div>
+                                    <div className='panel-content-sub-1'> Designed for effortless compatibility with various educational tools,
+                                        our Interactive Flat Panel enriches teaching methodologies and elevates the overall learning experience.</div>
                                 </div>
 
 
@@ -146,7 +140,7 @@ const Container = () => {
                         </div>
 
                     </div>
-                    <div className='panel-content-image'><img src={panel1} /></div>
+                    <div className='panel-content-image'><img src={panel1} alt='a pic'/></div>
 
 
 
@@ -168,7 +162,7 @@ const Container = () => {
                         <div>
                             <div><h4>Arav's Mother</h4></div>
                             <div>Grade 2 </div>
-                            
+
                         </div>
 
                     </div>
@@ -184,7 +178,7 @@ const Container = () => {
                         </div>
                         <div>
 
-                        <div><h4>Riya's Mother</h4></div>
+                            <div><h4>Riya's Mother</h4></div>
                             <div>Grade 5 </div>
                         </div>
 
@@ -201,7 +195,7 @@ const Container = () => {
                         </div>
                         <div>
 
-                        <div><h4> Isha's Mother</h4></div>
+                            <div><h4> Isha's Mother</h4></div>
                             <div>Grade 7 </div>
                         </div>
 

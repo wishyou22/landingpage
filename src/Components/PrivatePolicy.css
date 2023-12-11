@@ -1,0 +1,23 @@
+.PrivatePolicy-div{
+    display: flex;
+    justify-content: center;
+    margin: 6vw;
+   
+}
+.PrivatePolicy-sub-div{
+    width:80vw;
+    padding: 2vw;
+    background-color:#e7eff9;
+    border-radius:15px
+}
+.PrivatePolicy-sub-div h1{
+    border-bottom: 2px solid;
+}
+.PrivatePolicy-sub-div h3{
+    margin-top: 2vw;
+    margin-bottom:1vw
+}
+h4{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}

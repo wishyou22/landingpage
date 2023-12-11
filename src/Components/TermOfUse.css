@@ -1,0 +1,24 @@
+.terms-main-div{
+   display: flex;
+   justify-content: center;
+
+}
+.terms-sub-div{
+    width: 70vw;
+    /* border:2px solid rgb(220, 21, 54); */
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    padding: 2vw;
+    background-color: rgb(255, 231, 236);
+    border-radius: 15px;
+}
+.terms-sub-div h1{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    text-decoration: dotted;
+    border-bottom:2px solid crimson ;
+
+}
+.terms-sub-div div{
+    margin-top: 1vw; 
+}

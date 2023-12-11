@@ -1,0 +1,36 @@
+.refund-main{
+   
+    display: flex;
+    justify-content: center;
+}
+.refund-sub-main{
+    width: 70vw;
+    background-color:#F7E5EA;
+    padding: 5vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    border-radius: 15px;
+
+
+}
+.refund-text h1{
+    border-bottom: 2px solid rgb(152, 3, 13);
+}
+
+.refund-text{
+    display: flex; 
+    flex-direction: column;
+    gap: 1vw;
+    margin-top: 2vw;
+}
+.refund-text-adress{
+    width:20vw
+}
+.refund-text-line{
+    text-align: center;
+}
+.PrivatePolicy-sub-div h1{
+    text-decoration: solid;
+    margin-bottom: 2vw;
+}
+

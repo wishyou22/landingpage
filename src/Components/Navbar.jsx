@@ -27,7 +27,7 @@ const Navbar = () => {
     return (
         <div  className={`navbar ${isSticky ? 'sticky' : ''}`}>
             <div className='navbar-main-div'>
-                <div className='navbar-logo-div'><img src={logo} alt='a image'></img></div>
+                <div className='navbar-logo-div'><Link  to="/" ><img src={logo} alt='a image'></img></Link></div>
                 <div className='Navbar-Option'>
                     <div><Link to="/">Home</Link></div>
                     <div><Link to="/AboutUs">About Us</Link></div>

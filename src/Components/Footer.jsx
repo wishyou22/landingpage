@@ -11,7 +11,11 @@ import { FaApple } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoCallSharp } from "react-icons/io5";
 import { IoMail } from "react-icons/io5";
+import { IoLogoWhatsapp } from "react-icons/io";
+import ReactWhatsapp from 'react-whatsapp';
+import { Link } from 'react-router-dom';
 const Footer = () => {
+    
     return (
         <div>
             <div>
@@ -26,6 +30,7 @@ const Footer = () => {
                             <div><a href="https://www.instagram.com/iduracademy/" target='blank'><FaInstagramSquare size={20}/></a> </div>
                             <div><a href="https://www.linkedin.com/company/idur-global-tech-solutions-pvt-ltd/" target='blank'> <FaLinkedin size={20}/></a>  </div>
                             <div><a href='https://www.facebook.com/profile.php?id=61550020842162&mibextid=LQQJ4d' target='blank'> <FaFacebook size={20}/></a>  </div>
+                            <div><ReactWhatsapp  className="ReactWhatsapp" number='+919606023987' message='hi'><IoLogoWhatsapp  size={20}/></ReactWhatsapp> </div>
 
 
                         </div>
@@ -35,7 +40,7 @@ const Footer = () => {
                     </div>
                     <div className='footer-div-2'>
                         <div><h3>Company</h3></div>
-                        <div>About us</div>
+                        <div>Refund Policy</div>
                         <div>Joins us</div>
                         <div>Blog</div>
 
@@ -77,7 +82,14 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className='terms'><h4>© 2023 IDUR Academy. All Rights Reserved</h4></div>
+            <div className='terms'>
+                
+                <h4><Link to="/TermOfUse">Term of Use</Link> |  <Link to="/PrivacyStatment"> Refund Policy </Link>  |   <Link to="/PrivatePolicy" >Privacy Statement</Link></h4>
+                <h4>© 2023 IDUR Academy. All Rights Reserved</h4>
+            
+            
+            
+            </div>
 
         </div>
     )

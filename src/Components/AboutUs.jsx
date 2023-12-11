@@ -32,7 +32,7 @@ const AboutUs = () => {
 
 
                 </div>
-                <div className='words'><h1>Words by CEO</h1></div>
+                <div className='words'><h1>Words by Directors</h1></div>
                 <div className='ceo-statement-main-div'>
                     <div className='ceo-statement'>
 
@@ -45,7 +45,7 @@ const AboutUs = () => {
 
                             <div>Welcome to IDUR Academy</div>
 
-                            <div>From the desk of our CEO:
+                            <div>From the desk of our Directors:
 
                                 At IDUR Academy, we're dedicated to transforming the way children learn. Our mission is to blend academic excellence with the fun and engagement of digital learning, making education a joyous journey for every student.
 
@@ -56,7 +56,7 @@ const AboutUs = () => {
 
                             <div>
                                 Warm regards,
-                               <h4> Bushira Gowda</h4>
+                               <h4> IDUR Academy</h4>
                             
                             </div>
 
