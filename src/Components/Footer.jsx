@@ -59,7 +59,7 @@ const Footer = () => {
                         </div>
                         <div className='sub-footer-div-3'>
                             <div className='sub-logo-footer-div-3' ><FaApple size={40}/></div>
-                            <div className='sub-content-footer-div-3'><div>Coming Soon</div>
+                            <div className='sub-content-footer-div-3'> <div>Coming Soon</div>
                                 <div>App store</div>
                             </div>
 
