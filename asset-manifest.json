@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/main-page/static/css/main.4da7a297.css",
+    "main.js": "/main-page/static/js/main.6854e228.js",
+    "static/js/787.acb79df8.chunk.js": "/main-page/static/js/787.acb79df8.chunk.js",
+    "static/media/people-stacking-hands-together-park.jpg": "/main-page/static/media/people-stacking-hands-together-park.c502182e8a7db4a6133e.jpg",
+    "static/media/image-02.jpg": "/main-page/static/media/image-02.06a5cc03776ef04cc719.jpg",
+    "static/media/panel size.png": "/main-page/static/media/panel size.acf4d259daf8851cb9fa.png",
+    "static/media/IDUR Academy PNG.png": "/main-page/static/media/IDUR Academy PNG.6c4fea674ea70cadc461.png",
+    "static/media/image-01.jpg": "/main-page/static/media/image-01.36bbcc2cdaa7fb4d0794.jpg",
+    "static/media/panel-1.jpg": "/main-page/static/media/panel-1.82c746753748e0ab66cb.jpg",
+    "static/media/IDUR Academy logo 1a.png": "/main-page/static/media/IDUR Academy logo 1a.e7448e1938fb63fc21ea.png",
+    "static/media/businesswoman-call-center-office.jpg": "/main-page/static/media/businesswoman-call-center-office.8976875a17271fcc192a.jpg",
+    "static/media/croped.jpg": "/main-page/static/media/croped.b555a216c4ef75523b41.jpg",
+    "static/media/stroked logo.png": "/main-page/static/media/stroked logo.70ee9a6ab2d4bf0efcf9.png",
+    "static/media/symbol4.png": "/main-page/static/media/symbol4.33231227dabe5ead9083.png",
+    "index.html": "/main-page/index.html",
+    "main.4da7a297.css.map": "/main-page/static/css/main.4da7a297.css.map",
+    "main.6854e228.js.map": "/main-page/static/js/main.6854e228.js.map",
+    "787.acb79df8.chunk.js.map": "/main-page/static/js/787.acb79df8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4da7a297.css",
+    "static/js/main.6854e228.js"
+  ]
+}
